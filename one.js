@@ -9,7 +9,7 @@ let obj={
 
 let arr1=[],arr2=[];
 for(let i in obj){
-    console.log(obj[i])
+    console.log("key : " + i +"value : "+ obj[i])
     arr2.push(i)
     arr1.push(obj[i]);
 }
